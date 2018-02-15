@@ -12,7 +12,7 @@ public class Solution
         int sum = 0;
         
         // We want to loop through the array in O(N) time.
-        // Because of this, this algorithm is linear.
+        // It's O(N) because we are looping through an array of 'N' elements.
         for(int i = 0; i < n; i++)
         {
             sum += ar[i];
