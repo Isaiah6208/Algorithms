@@ -5,7 +5,8 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-
+    
+    // This algorithm takes O(N) time because we're looping through an array of 'N' elements.
     static long aVeryBigSum(int n, long[] ar) 
     {
         long sum = 0;
